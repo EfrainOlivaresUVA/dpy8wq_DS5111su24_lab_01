@@ -2,7 +2,7 @@
 
 ## Chapter 2: How GitHub Actions Work
 
-In this chapter, we explore the components and functionality of GitHub Actions. "GitHub Actions" refers to both the system for executing automated workflows in response to events and the individual units of code that implement these actions. This chapter explains the workflow of GitHub Actions, detailing the triggering events, the role of workflow files, and how jobs and steps are executed on runners.
+"GitHub Actions" refers to both the system for executing automated workflows in response to events and the individual units of code that implement these actions. This chapter explains the workflow of GitHub Actions, detailing the triggering events, the role of workflow files, and how jobs and steps are executed on runners.
 
 ### Overview of GitHub Actions Flow
 
