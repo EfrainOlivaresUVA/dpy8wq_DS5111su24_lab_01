@@ -22,28 +22,6 @@ In this chapter, we explore the components and functionality of GitHub Actions. 
 - Events that trigger workflows include operations in a GitHub repository, external triggers, schedules, and manual initiation.
 - The `on` clause in the workflow syntax specifies the events that trigger the workflow.
 
-### Workflow Example
-
-A simple Go build workflow example shows how a workflow file is structured:
-
-```yaml
-name: Simple Go Build
-
-on:
-  push:
-    branches:
-      - main
-
-jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v3
-      - name: Setup Go version
-        uses: actions/setup-go@v2
-        with:
-          go-version: '1.15.1'
-      - run: go run hello-world.go
 
 ## Chapter 3. What’s in an action?
 
